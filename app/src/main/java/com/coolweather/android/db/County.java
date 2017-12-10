@@ -17,22 +17,22 @@ public class County extends DataSupport {
     private void setId(int id){
         this.id = id;
     }
-    private String getCountyName(){
+    public String getCountyName(){
         return countyName;
     }
-    private void setCountyName(String countyName){
+    public void setCountyName(String countyName){
         this.countyName = countyName;
     }
     private String getWeatherId(){
         return  weatherId;
     }
-    private void setWeatherId(String weatherId){
+    public void setWeatherId(String weatherId){
         this.weatherId = weatherId;
     }
     private int getCityId(){
         return cityId;
     }
-    private void setCityId(int cityId){
+    public void setCityId(int cityId){
         this.cityId = cityId;
     }
 
