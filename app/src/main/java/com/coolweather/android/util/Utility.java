@@ -80,7 +80,7 @@ public class Utility {
         return  false;
     }
 
-    public static Weather handleWeatherReponse(String reponse){
+    public static Weather handleWeatherResponse(String reponse){
         try {
             JSONObject jsonObject = new JSONObject(reponse);
             JSONArray jsonArray = new JSONArray("HeWeather");
@@ -91,4 +91,5 @@ public class Utility {
         }
         return null;
     }
+
 }
